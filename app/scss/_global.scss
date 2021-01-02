@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #282625;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container-fluid {
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+.title {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #1F150C;
+    text-transform: uppercase;
+}

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header" style=" background-image: url(images/head-bg.jpg);">
+        <div class="container-fluid">
+            <div class="header__top">
+                <a href="#" class="header__logo">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <nav class="header__nav-menu">
+                    <div class="header__button">
+                        <div class="header__button-row"></div>
+                        <div class="header__button-row"></div>
+                        <div class="header__button-row"></div>
+                    </div>
+                    <ul class="header__menu">
+                        <li class="header__menu-list"><a href="#" class="header__menu-link">О нас</a></li>
+                        <li class="header__menu-list"><a href="#" class="header__menu-link">Меню</a></li>
+                        <li class="header__menu-list"><a href="#" class="header__menu-link">Галерея</a></li>
+                        <li class="header__menu-list"><a href="#" class="header__menu-link">Отзывы</a></li>
+                        <li class="header__menu-list"><a href="#" class="header__menu-link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__location">г. Киев, Малая Житомирская 27</a>
+            </div>
+            <div class="header__content">
+                <h1 class="header__title">
+                    9Bar Coffee
+                </h1>
+                <p class="header__text">
+                    Мы делаем хороший кофе для хороших людей! Уже 7 лет мы выбираем зеленое кофейное зерно на фермах,
+                    обжариваем его на собственном производстве.
+                </p>
+                <div class="header__content-btn">
+                    <a href="#" class="header__btn header__map-navigation">Как добраться</a>
+                    <a href="" class="header__btn header__link-inst">Наш инстаграм</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h4 class="about__title title">О нас</h4>
+            <div class="about__content">
+                <div class="about__image">
+                    <img src="images/about.jpg" alt="">
+                </div>
+                <div class="about__desc">
+                    <p class="about__text">9Bar Coffee — стильная кофейня со вкусным кофе. Мы предложим Вам атмосферу
+                        счастливого покоя, изысканного отдыха и гастрономического наслаждения — настоящий оазис уюта
+                        со своими традициями и ритуалами.</p>
+                    <p class="about__text">Небольшие уютные залы кофейни оформлены с безупречным вкусом и заботой
+                        о вашем комфорте.</p>
+                    <div class="about__value">
+                        <div class="about__item">
+                            <div class="about__item-num">5</div>
+                            <div class="about__item-text">лет на рынке </div>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__item-num">123</div>
+                            <div class="about__item-text">чашки кофе в день</div>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__item-num">20</div>
+                            <div class="about__item-text">видов кофе</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="menu">
+        <div class="container">
+            <h4 class="menu__title title">Меню</h4>
+            <div class="menu__inner">
+                <div class="menu__contetn">
+                    <div class="menu__inner-btn">
+                        <button type="button" data-filter=".category-coffe" class="menu__btn">Кофе</button>
+                        <button type="button" data-filter=".category-bakery" class="menu__btn">Выпечка</button>
+                        <button type="button" data-filter=".category-dessert" class="menu__btn">Десерты </button>
+                    </div>
+                    <div class="menu__box">
+                        <div class="menu__box-coffe mix category-coffe">
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо</div>
+                                <div class="menu__item-volume">35 мл</div>
+                                <div class="menu__item-price">30₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо лунго</div>
+                                <div class="menu__item-volume">95 мл</div>
+                                <div class="menu__item-price">35₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо ристретто</div>
+                                <div class="menu__item-volume">20 мл</div>
+                                <div class="menu__item-price">35₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Капучино</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">40₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Капучино Куба</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Латте</div>
+                                <div class="menu__item-volume">170 мл</div>
+                                <div class="menu__item-price">55₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Латте маккиато</div>
+                                <div class="menu__item-volume">170 мл</div>
+                                <div class="menu__item-price">55₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Кофе с кардамоном</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Кофе по-мексикански</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                        </div>
+
+                        <!-- ------- end coffe------- -->
+
+                        <div class="menu__box-bakery mix category-bakery">
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо</div>
+                                <div class="menu__item-volume">35 мл</div>
+                                <div class="menu__item-price">30₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо лунго</div>
+                                <div class="menu__item-volume">95 мл</div>
+                                <div class="menu__item-price">35₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо ристретто</div>
+                                <div class="menu__item-volume">20 мл</div>
+                                <div class="menu__item-price">35₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Капучино</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">40₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Капучино Куба</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Латте</div>
+                                <div class="menu__item-volume">170 мл</div>
+                                <div class="menu__item-price">55₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Латте маккиато</div>
+                                <div class="menu__item-volume">170 мл</div>
+                                <div class="menu__item-price">55₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Кофе с кардамоном</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                            <div class="menu__item ">
+                                <div class="menu__item-name">Кофе по-мексикански</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                        </div> 
+
+                        <!-- ------- end bakery------- -->
+
+                       <div class="menu__box-dessert mix category-dessert">
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо</div>
+                                <div class="menu__item-volume">35 мл</div>
+                                <div class="menu__item-price">30₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо лунго</div>
+                                <div class="menu__item-volume">95 мл</div>
+                                <div class="menu__item-price">35₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Эспрессо ристретто</div>
+                                <div class="menu__item-volume">20 мл</div>
+                                <div class="menu__item-price">35₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Капучино</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">40₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Капучино Куба</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Латте</div>
+                                <div class="menu__item-volume">170 мл</div>
+                                <div class="menu__item-price">55₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Латте маккиато</div>
+                                <div class="menu__item-volume">170 мл</div>
+                                <div class="menu__item-price">55₴</div>
+                            </div>
+                            <div class="menu__item">
+                                <div class="menu__item-name">Кофе с кардамоном</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                            <div class="menu__item ">
+                                <div class="menu__item-name">Кофе по-мексикански</div>
+                                <div class="menu__item-volume">120 мл</div>
+                                <div class="menu__item-price">45₴</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="menu__images">
+                    <div class="menu__image-left">
+                        <img src="images/left.jpg" alt="">
+                    </div>
+                    <div class="menu__image-right">
+                        <img src="images/right.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="gallery">
+        <div class="container-fluid">
+            <div class="gallery__inner">
+                <div class="gallery__column-left">
+                    <div class="gallery__box-top">
+                        <h4 class="galleri__title title">Галерея</h4>
+                        <p class="gallery__text">На выходных в нашей кофейне работает фотограф. Хочешь насладиться
+                            чашечкой ароматного кофе и получить красивые фото - скорее приходи к нам!</p>
+                        <a href="#" class="gallery__link">Наш инстаграм</a>
+                    </div>
+                    <div class="gallery__box-bottom">
+                        <img src="images/gal3.png" alt="">
+                    </div>
+                </div>
+                <div class="gallery__column-centr">
+                    <div class="gallery__box-top gal__box-media">
+                        <img src="images/gal1.png" alt="">
+                    </div>
+                    <div class="gallery__box-bottom">
+                        <img src="images/gal4.png" alt="">
+                    </div>
+                </div>
+                <div class="gallery__column-right">
+                    <div class="gallery__box-top">
+                        <img src="images/gal2.png" alt="">
+                    </div>
+                    <div class="gallery__box-bottom">
+                        <img src="images/gal5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+     <section class="form">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__wrapper">
+                    <h5 class="form__title">Оставить отзыв</h5>
+                    <form class="form__box">
+                        <div class="form__box-name">
+                            <span class="form__label-name">Имя</span>
+                            <input class="form__name" type="text">
+                        </div>
+                        <div class="form__box-file">
+                            <span class="form__label-file">Файл</span>
+                            <input class="form__file" type="file" id="real-file" hidden="hidden">
+                            <button class="form__file-button" type="button" id="form__file-button">Выберите
+                                файл</button>
+                            <span class="form__file-text" id="file__custom-text">Файл не найден</span>
+                        </div>
+                        <div class="form__box-textarea">
+                            <span class="form__label-textarea">Отзыв</span>
+                            <textarea class="form__textarea"></textarea>
+                        </div>
+                        <label class="form__box-checkbox">
+                            <input class="form__check" type="checkbox" checked>
+                            <span class="check-style"></span>
+                            Я согласен на<span class="form__text-color">обработку персональных данных</span>
+                        </label>
+
+                        <button class="form__btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+     <section class="review">
+        <div class="container">
+            <div class="review__content">
+                <h4 class="review__title title">Отзывы</h4>
+                <p class="review__subtitle">Оставь отзыв с фото и получи скидку -25% на следующую чашку кофе!</p>
+                <div class="review__inner">
+
+                    <div class="review__item">
+                        <div class="review__box-text">
+                            <p class="review__item-text">Отличное место! Уютно, комфортно, вкусно и красиво. Очень
+                                приятная атмосфера, внимательный персонал. Обязательно вернусь.Отличное место! Уютно, комфортно, вкусно и красиво. Очень
+                                приятная атмосфера, внимательный персонал. Обязательно вернусь.</p>
+                            <p class="review__item-author">Костюченко Валерия </p>
+                        </div>
+                        <div class="review__item-img">
+                            <img src="images/review.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="review__item">
+                        <div class="review__box-text">
+                            <p class="review__item-text">Отличное место! Уютно, комфортно, вкусно и красиво. Очень
+                                приятная атмосфера, внимательный персонал. Обязательно вернусь.</p>
+                            <p class="review__item-author">Костюченко Валерия </p>
+                        </div>
+                        <div class="review__item-img">
+                            <img src="images/review.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="review__item">
+                        <div class="review__box-text">
+                            <p class="review__item-text">Отличное место! Уютно, комфортно, вкусно и красиво. Очень
+                                приятная атмосфера, внимательный персонал. Обязательно вернусь.</p>
+                            <p class="review__item-author">Костюченко Валерия </p>
+                        </div>
+                        <div class="review__item-img">
+                            <img src="images/review.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="review__item">
+                        <div class="review__box-text">
+                            <p class="review__item-text">Отличное место! Уютно, комфортно, вкусно и красиво. Очень
+                                приятная атмосфера, внимательный персонал. Обязательно вернусь.</p>
+                            <p class="review__item-author">Костюченко Валерия </p>
+                        </div>
+                        <div class="review__item-img">
+                            <img src="images/review.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <footer class="footer">
+
+        <div class="footer__inner">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__box">
+                        <div class="footer__title">Контакты</div>
+                        <a class="footer__tel" href="tel:+80951726928">8 095 17 26 928</a>
+                        <a class="footer__map" href="#">г. Киев, Малая Житомирская 27</a>
+                        <a class="footer__mail" href="mailto:9BarCoffee@gmail.com">9BarCoffee@gmail.com</a>
+                        <ul class="footer__time-work">
+                            <li class="footer__time-list">Пн: с 11:00 до 21:00</li>
+                            <li class="footer__time-list">Вт - Пт: с 10:00 до 21:00</li>
+                            <li class="footer__time-list">Сб - Вс: с 10:00 до 21:00</li>
+                        </ul>
+                        <ul class="footer__social">
+                            <li class="footer__social-list">
+                                <a href="#" class="footer__social-link">
+                                    <img src="images/icons/fb.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__social-list">
+                                <a href="#" class="footer__social-link">
+                                    <img src="images/icons/inst.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__social-list">
+                                <a href="#" class="footer__social-link">
+                                    <img src="images/icons/teleg.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copy">
+            © 2020 9BarCoffee. All rights recorved. Terms of Use and Privacy Policy
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
